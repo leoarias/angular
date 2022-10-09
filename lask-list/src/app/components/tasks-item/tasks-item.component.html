@@ -1,4 +1,7 @@
 <div class="task">
     <h3>{{task.text}}</h3>
-    <P>{{task.day}}</P>
+    <P>{{task.day}}
+        <fa-icon [icon]="faTimes"
+        [ngStyle]="{'color':'red'}"></fa-icon>
+    </P>
 </div>
